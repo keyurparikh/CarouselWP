@@ -1,6 +1,7 @@
 ## carousel-wp
 
 Original source: https://github.com/OlivierCC/spfx-40-fantastics
+
 Changes made in this version: Separated Carousel3D webpart and updated with latest SharePoint Framework.
 
 ### Building the code
