@@ -1,0 +1,36 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "carousel-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carouselWp/CarouselWpWebPart.js",
+          "manifest": "./src/webparts/carouselWp/CarouselWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "sp-client-custom-fields": "node_modules/sp-client-custom-fields/dist/sp-client-custom-fields.bundle.js",
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "jqueryreflection": {
+      "path": "src/webparts/carouselWp/js/jquery.reflection.js",
+      "globalName": "jQuery",
+      "globalDependencies": [ "jquery" ]
+    },
+    "cloud9carousel": {
+      "path": "src/webparts/carouselWp/js/jquery.cloud9carousel.js",
+      "globalName": "jQuery",
+      "globalDependencies": [ "jquery", "jqueryreflection" ]
+    },
+    "jqueryui": "node_modules/jqueryui/jquery-ui.js"
+  },
+  "localizedResources": {
+    "sp-client-custom-fields/strings": "node_modules/sp-client-custom-fields/lib/loc/{locale}.js",        
+    "CarouselWpWebPartStrings": "lib/webparts/carouselWp/loc/{locale}.js"
+  }
+}

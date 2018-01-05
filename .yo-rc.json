@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "carousel-wp",
+    "libraryId": "062d6668-34d8-464e-a070-4f8b3cfc8f20",
+    "environment": "spo"
+  }
+}

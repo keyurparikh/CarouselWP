@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "carousel-wp-client-side-solution",
+    "id": "062d6668-34d8-464e-a070-4f8b3cfc8f20",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/carousel-wp.sppkg"
+  }
+}
