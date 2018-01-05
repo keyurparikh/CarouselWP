@@ -1,4 +1,4 @@
-## carousel-wp
+## Carousel3DWP
 
 Original source: https://github.com/OlivierCC/spfx-40-fantastics
 
